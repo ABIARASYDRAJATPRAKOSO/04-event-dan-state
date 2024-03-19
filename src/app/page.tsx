@@ -7,7 +7,7 @@ export default function Home() {
       <h2>kuis kota</h2>
       <Tombol_1/>
       <hr></hr>
-      <Tombol_2 isiPesan={"ini pesanku"} namaTombol="pesan"/>
+      <Tombol_2 isiPesan={"ini pesanku"} namaTombol="pesanku adalah"/>
     </div>
     </>
    );
