@@ -2,7 +2,9 @@
 import Tombol_1,{Tombol_2,Tombol_3} from "@/component/button";
 import Form from "@/component/form";
 import { Form_2 } from "@/component/form";
+import Accordion from "@/component/accordion";
 import Gallery from "@/component/gallery";
+import { Chat } from "@/component/chat";
 export default function Home() {
   return ( 
     <>
@@ -23,6 +25,10 @@ export default function Home() {
       <Form />
       <br></br>
       <Form_2 />
+      <br></br>
+      <Accordion />
+      <br></br>
+      <Chat />
       <br></br>
     </>
    );

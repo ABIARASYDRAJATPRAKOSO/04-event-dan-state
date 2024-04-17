@@ -15,3 +15,10 @@ menambahkan first name dan nama lengkap seseorang kedalam bentuk form,perbedaan 
 Kenapa perlu menghapus state fullName? Apa keuntungannya?
 keuntunganya adalah source code menjadi lebih simpel dan lebih mudah untuk dipahami dan karena itu diperlukan untuk menghapus state fullName agar dapat lebih mudah dalam menemukan error
 Silahkan laporkan dan commit dengan judul Jawaban Soal Praktikum 5
+
+Soal
+Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+memberikan kunci unik pada elemen Chat yang dibuat. Kunci ini umumnya digunakan dalam React untuk membantu dalam proses rendering yang efisien
+Apa fungsi dari props key tersebut?
+Ketika kunci tersebut ditambahkan, textArea berubah. Sebelumnya, teks yang terisi dalam textarea tetap dipertahankan meskipun kita berpindah ke kontak lain/klik tombol lain. Setelah itu, setelah kuncinya diubah, area teks akan dihapus setiap kali kita berpindah ke kontak lain.
+Silakan laporkan dan commit dengan judul Jawaban Soal Praktikum 6
